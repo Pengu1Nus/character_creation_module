@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 79
+select = [
+    "F401",
+    "F403",
+    "E501",
+    "COM812",
+]
+
+fixable = ["ALL"]
+
+
+[tool.ruff.format]
+quote-style = "single"
